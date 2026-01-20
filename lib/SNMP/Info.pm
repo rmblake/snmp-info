@@ -1192,6 +1192,12 @@ Subclass for Cisco IPS devices.
 
 See documentation in L<SNMP::Info::Layer7::CiscoIPS> for details.
 
+=item SNMP::Info::Layer7::Eaton
+
+Subclass for Eaton devices.
+
+See documentation in L<SNMP::Info::Layer7::Eaton> for details.
+
 =item SNMP::Info::Layer7::Gigamon
 
 Subclass for Gigamon devices.
@@ -1911,6 +1917,7 @@ sub device_type {
     my %l7sysoidmap = (
         318   => 'SNMP::Info::Layer7::APC',
         476   => 'SNMP::Info::Layer7::Liebert',
+		531   => 'SNMP::Info::Layer7::Eaton',
         5951  => 'SNMP::Info::Layer7::Netscaler',
         9694  => 'SNMP::Info::Layer7::Arbor',
         11256 => 'SNMP::Info::Layer7::Stormshield',
