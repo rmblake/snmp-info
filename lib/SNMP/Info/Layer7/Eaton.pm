@@ -105,7 +105,7 @@ sub ps2_status {
 __END__
 
 =head1 NAME
-SNMP::Info::Layer7::Eaton - SNMP Interface to Eaton UPS/PDU devices
+SNMP::Info::Layer7::Eaton - SNMP Interface to Eaton UPS devices
 =head1 AUTHOR
 Rob Blake
 =head1 SYNOPSIS
@@ -125,7 +125,7 @@ Rob Blake
 
 =head1 DESCRIPTION
 Provides abstraction to the configuration information obtainable from an
-Eaton UPS/PDU via SNMP.
+Eaton UPS via SNMP.
 =head2 Inherited Classes
 =over
 =item SNMP::Info::Layer7
@@ -135,7 +135,7 @@ Eaton UPS/PDU via SNMP.
 =item F<XUPS-MIB>
 =item F<UPS-MIB>
 =item F<EATON-OIDS>
-=item F<EATON-EPDU-MIB>
+=item F<EATON-EPDU-MIB.txt>
 =back
 All required MIBs can be found in the netdisco-mibs package.
 =head1 GLOBALS
